@@ -1,5 +1,5 @@
-let firstCard = 10;
-let secondCard = 4;
+let firstCard = getRandom();
+let secondCard = getRandom();
 let cards = [];
 cards.push(firstCard,secondCard);
 let sum = firstCard + secondCard;
@@ -34,11 +34,11 @@ function renderGame(){
     messageElement.textContent = message;
 }
 function getRandom(){
-
+    return Math.floor(Math.random()*12)+1;
 }
 
 function newCard(){
-    let cardPicked = 2;
+    let cardPicked = getRandom();
     sum += cardPicked;
     cards.push(cardPicked);
     renderGame();
