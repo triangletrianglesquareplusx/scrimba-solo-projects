@@ -9,8 +9,15 @@ body, html{
     font-weight: bold;
     
 }
+button{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+}
+
 h1{
     color: goldenrod;
+
 }
 #message-el{
     font-style: italic;
