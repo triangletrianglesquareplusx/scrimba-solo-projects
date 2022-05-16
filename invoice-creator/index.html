@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice creator v 1.1</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="invoice-tool">
+        <div class="head">
+            <div>Invoice creator</div>
+            <div id="thank-note">Thank you for using our services!</div>
+        </div>
+        <div class="body">
+            <div class="items">
+                <button class="item">Mow lawn: $10</button>
+                <button class="item">Pull weeds: $20</button>
+                <button class="item">Wash car: $40</button>
+            </div>
+            <div class="flex-attempt">
+                <div id="task">TASK</div>
+                <div id="total">TOTAL</div>
+            </div>
+            <div id="output">
+
+            </div>
+            <div class="break"></div>
+            <div class="flex-attempt">
+                <div id="notes">NOTES</div>
+                <div id="total-sum">SUM</div>
+            </div>
+            <div class="flex-attempt">
+                <div id="text">We accept credit and debit cards.</div>
+                <div id="sum-value">$0</div>
+            </div>
+            
+            <button id="invoice-btn">Send invoice</button>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

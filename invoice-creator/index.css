@@ -1,0 +1,138 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+ion-icon {
+    /*font-size: 20px;*/
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 30px;
+}
+.break{
+    border-bottom: #D1D4F4 solid 1px;
+    width: 432px;
+    margin-left: 60px;
+    padding: 20px 0 11px 0;
+    margin-bottom: 40px;
+}
+.invoice-tool{
+    text-align: center;
+    width: 550px;
+    height: 710px;
+    background-color: #3A69D2;
+    margin: 0 auto;
+    border-radius: 7px;
+    min-width: 550px;
+}
+.head{
+    
+    padding: 59px 98px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.body{
+    height: 529px;
+    background-color: #1F2937;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.items{
+    padding: 41px;
+    display: flex;
+}
+.item{
+    width: 143px;
+    height: 45px;
+    background-color: #D1D4F4;
+    border-radius: 7px;
+    margin: 0px 20px;
+    
+}
+.remove-button{
+    font-size: small;
+    margin: 5px;
+    background-color: inherit;
+    border: none;
+    color: #D5D4D8;
+}
+.flex-attempt{
+    display: flex;
+    align-content: space-between;
+    flex-flow: column wrap;
+    height: 22px;
+    margin-top: 5px;
+}
+.output-item{
+    font-weight: bold;
+    font-size: large;
+    color: #D5D4D8;
+    padding: 10px 0 10px 0;
+}
+#thank-note{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#task{
+    height: 22px;
+    color: #D5D4D8;
+    text-align: center;
+    margin-left: 60px;
+    
+    
+}
+#total{
+    
+    height: 22px;
+    color: #D5D4D8;
+    text-align: center;
+    margin-right: 60px;
+   
+}
+#total-sum{
+    height: 22px;
+    color: #D5D4D8;
+    text-align: center;
+    margin-right: 60px;
+    font-weight: bold;
+}
+#notes{
+    height: 22px;
+    color: #D5D4D8;
+    text-align: center;
+    margin-left: 60px;
+    font-weight: bold;
+}
+#text{
+    height: 22px;
+    color: #D5D4D8;
+    text-align: center;
+    margin-left: 60px;
+    font-size: small;
+}
+#sum-value{
+    height: 22px;
+    color: #F5F5F5;
+    text-align: center;
+    margin-right: 60px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#output{
+    text-align: left;
+    margin-left: 60px;
+}
+#invoice-btn{
+    width: 432px;
+    height: 44px;
+    background-color: #3A69D2;
+    margin-top: 60px;
+    border-radius: 7px;
+    border-style: none;
+    color: #F5F5F5;
+    
+}
+
